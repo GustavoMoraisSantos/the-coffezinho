@@ -20,22 +20,7 @@ function WhereContainer() {
             <span className="w3-tag w3-wide">WHERE TO FIND US</span>
           </h5>
           <p>Find us at some address at some place.</p>
-          <img
-            src="/w3images/map.jpg"
-            className="w3-image"
-            style={{ width: "100%" }}
-          />
-          <p>
-            <span className="w3-tag">FYI!</span> We offer full-service catering
-            for any event, large or small. We understand your needs and we will
-            cater the food to satisfy the biggerst criteria of them all, both
-            look and taste.
-          </p>
-          <p>
-            <strong>Reserve</strong> a table, ask for today's special or just
-            send us a message:
-          </p>
-          <div style={{width:'100%', height:'500px'}}>
+          <div style={{width:'100%', height:'500px', marginTop:'20px', marginBottom:'20px'}}>
             {isLoaded && (
               <GoogleMap
                 mapContainerStyle={{ width: "100%", height: "100%" }}
@@ -47,6 +32,17 @@ function WhereContainer() {
               ></GoogleMap>
             )}
           </div>
+          <p>
+            <span className="w3-tag">FYI!</span> We offer full-service catering
+            for any event, large or small. We understand your needs and we will
+            cater the food to satisfy the biggerst criteria of them all, both
+            look and taste.
+          </p>
+          <p>
+            <strong>Reserve</strong> a table, ask for today's special or just
+            send us a message: <a href="https://web.whatsapp.com/send?phone=5541996301244" target="_blank">WhatsApp</a>
+          </p>
+
         </div>
       </div>
     </>

@@ -1,0 +1,64 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../../../../public/agora-vai.png") center/cover;
+}
+
+.bannerContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(48, 44, 44);
+  font-weight: bold;
+  font-family: "DM Serif Display", serif;
+}
+
+/* Media queries para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  .banner {
+    height: 250px;
+  }
+  .bannerContent{
+    display: none;
+  }
+}
+
+/* Media queries para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner {
+    height: 450px;
+  }
+  .bannerContent{
+    display: none;
+  }
+}
+
+/* Media queries para desktops */
+@media only screen and (min-width: 1024px) {
+  .banner {
+    height: 50vh;
+  }
+  .banner h1 {
+    font-size: 70px;
+    font-family: "DM Serif Display", serif;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("../../../../public/coffe-banner.jpg") center/cover;
+    opacity: 0.5;
+  }
+}

@@ -24,6 +24,8 @@ function Footer() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            padding: '20px ',
+            textAlign:'center'
           }}
         >
           <div

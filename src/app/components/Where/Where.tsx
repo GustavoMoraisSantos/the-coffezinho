@@ -8,6 +8,10 @@ function WhereContainer() {
     googleMapsApiKey: "AIzaSyDsFkvSj47zFyJUYG43NL1XNYxM4h7PbCI",
   });
 
+  const texto = "Olá! Gostaria de conversar com alguém!";
+  const textoCodificado = encodeURIComponent(texto);
+  const url = `https://api.whatsapp.com/send?phone=5541996301244&text=${textoCodificado}`;
+  
   return (
     <>
       <div
@@ -20,7 +24,14 @@ function WhereContainer() {
             <span className="w3-tag w3-wide">WHERE TO FIND US</span>
           </h5>
           <p>Find us at some address at some place.</p>
-          <div style={{width:'100%', height:'500px', marginTop:'20px', marginBottom:'20px'}}>
+          <div
+            style={{
+              width: "100%",
+              height: "500px",
+              marginTop: "20px",
+              marginBottom: "20px",
+            }}
+          >
             {isLoaded && (
               <GoogleMap
                 mapContainerStyle={{ width: "100%", height: "100%" }}
@@ -40,9 +51,11 @@ function WhereContainer() {
           </p>
           <p>
             <strong>Reserve</strong> a table, ask for today's special or just
-            send us a message: <a href="https://web.whatsapp.com/send?phone=5541996301244" target="_blank">WhatsApp</a>
+            send us a message:{" "}
+            <a href={url} target="_blank">
+              WhatsApp
+            </a>
           </p>
-
         </div>
       </div>
     </>

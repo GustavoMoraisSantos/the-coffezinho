@@ -1,0 +1,8 @@
+.icons{
+    cursor: pointer;
+}
+.icons:hover{
+    color: rgb(133, 133, 133);
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out
+}

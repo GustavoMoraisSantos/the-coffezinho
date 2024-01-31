@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Menu from "./components/Menu";
+import WhatsAppButton from "./components/WhatsAppFloat";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Menu />
         <div style={{ marginTop: "54px" }}>{children}</div>
+        <WhatsAppButton/>
       </body>
     </html>
   );

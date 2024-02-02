@@ -2,7 +2,7 @@
 
 Bem-vindo à The Coffezinho, onde o aroma do café se encontra com experiências deliciosas! 🌟☕
 
-[The Coffezinho site](https://link_para_uma_imagem_do_seu_site.jpg)
+[The Coffezinho](https://the-coffezinho.vercel.app/)
 
 ## Visão Geral
 
@@ -10,7 +10,7 @@ A The Coffezinho é mais do que apenas um lugar para tomar café. É um destino 
 
 ## Live Preview
 
-Explore nossos sabores e sinta a vibe da The Coffezinho em [Live Preview](https://cafeteria-delicia.vercel.app/).
+Explore nossos sabores e sinta a vibe da The Coffezinho em [Live Preview](https://the-coffezinho.vercel.app/).
 
 ## Recursos
 

@@ -2,7 +2,7 @@
 
 Bem-vindo à The Coffezinho, onde o aroma do café se encontra com experiências deliciosas! 🌟☕
 
-![The Coffezinho](https://link_para_uma_imagem_do_seu_site.jpg)
+[The Coffezinho site](https://link_para_uma_imagem_do_seu_site.jpg)
 
 ## Visão Geral
 
